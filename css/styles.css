@@ -1,11 +1,12 @@
 :root {
   --title-text-color: #212121;
   --text-color: #757575;
-  --hover-color: #2196f3;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
 }
 
 body {
-  background-color: white;
+  background-color: var(--background-color);
 }
 ul {
   list-style: none;
@@ -15,14 +16,14 @@ ul {
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 .contact a {
   color: var(--text-color);
 }
 .contact a:hover,
 .contact a:focus {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 .section title {
   color: var(--title-text-color);
@@ -33,7 +34,12 @@ ul {
 .feature-desc {
   color: var(--text-color);
 }
-.we-do-section-title,
+.do-section-title,
 .team-section-title {
   color: var(--title-text-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }
