@@ -1,3 +1,9 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --hover-color: #2196f3;
+}
+
 body {
   background-color: white;
 }
@@ -5,25 +11,29 @@ ul {
   list-style: none;
 }
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .contact a {
-  color: #757575;
+  color: var(--text-color);
 }
 .contact a:hover,
 .contact a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .section title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .hero-title {
   color: #ffffff;
 }
 .feature-desc {
-  color: #757575;
+  color: var(--text-color);
+}
+.we-do-section-title,
+.team-section-title {
+  color: var(--title-text-color);
 }
