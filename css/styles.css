@@ -26,11 +26,11 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
-.contact a {
+.contact-list a {
   color: var(--text-color);
 }
-.contact a:hover,
-.contact a:focus {
+.contact-list a:hover,
+.contact-list a:focus {
   color: var(--accent-color);
 }
 .section title {
