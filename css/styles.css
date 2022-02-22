@@ -17,7 +17,9 @@ a {
 ul {
   list-style: none;
 }
-
+.site-nav .contact-list {
+  line-height: 1.17;
+}
 .site-nav a {
   color: var(--title-text-color);
 }
@@ -30,6 +32,9 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
+.contact-list {
+  line-height: 1.17;
+}
 .contact-list a {
   color: var(--text-color);
 }
@@ -39,16 +44,20 @@ ul {
 }
 .section title {
   color: var(--title-text-color);
+  line-height: 1.17;
 }
 .hero-title {
   color: #ffffff;
+  line-height: 1.36;
 }
 .feature-desc {
   color: var(--text-color);
+  line-height: 1.17;
 }
 .do-section-title,
 .team-section-title {
   color: var(--title-text-color);
+  line-height: 1.17;
 }
 .team-section {
   background-color: var(--button-bg-color);
@@ -57,6 +66,7 @@ ul {
   background-color: var(--accent-color);
   color: var(--background-color);
   cursor: pointer;
+  line-height: 1.8;
 }
 
 .button-secondary {
@@ -76,6 +86,9 @@ ul {
   color: var(--background-color);
   cursor: pointer;
 }
+.btn-text {
+  line-height: 1.62;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -86,6 +99,13 @@ ul {
   font-size: 26px;
   color: #000000;
 }
+.logo-three {
+  color: var(--background-color);
+}
+.logo.text {
+  line-height: 1.38;
+}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -109,13 +129,21 @@ ul {
 .team-name {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.17;
 }
 .team-prof {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.17;
 }
 .hero {
   background-color: #2f303a;
+}
+.portf-section-title {
+  line-height: 2;
+}
+.portf-decs {
+  line-height: 1.87;
 }
 .footer {
   background: #2f303a;
