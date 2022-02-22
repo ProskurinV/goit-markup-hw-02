@@ -8,8 +8,12 @@
 
 body {
   background-color: var(--background-color);
+  font-family: Roboto, sans-serif;
 }
-
+a {
+  text-decoration: none;
+  font-style: normal;
+}
 ul {
   list-style: none;
 }
@@ -50,19 +54,67 @@ ul {
 .button-primary {
   background-color: var(--accent-color);
   color: var(--background-color);
+  cursor: pointer;
 }
 
 .button-secondary {
   background-color: var(--button-bg-color);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .button-primary:hover,
 .button-primary:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+  cursor: pointer;
 }
 .button-secondary:hover,
 .button-secondary:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+  cursor: pointer;
+}
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #2196f3;
+}
+.logo-two {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #000000;
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.feature-desc {
+  font-weight: 400;
+  font-size: 14px;
+}
+.do-section-title .team-section-title {
+  font-size: 700;
+  font-size: 36px;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team-prof {
+  font-weight: 400;
+  font-size: 16px;
+}
+.hero {
+  background-color: #2f303a;
+}
+.footer {
+  background: #2f303a;
 }
