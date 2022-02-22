@@ -50,7 +50,9 @@ ul {
 .team-section-title {
   color: var(--title-text-color);
 }
-
+.team-section {
+  background-color: var(--button-bg-color);
+}
 .button-primary {
   background-color: var(--accent-color);
   color: var(--background-color);
@@ -75,12 +77,12 @@ ul {
   cursor: pointer;
 }
 .logo {
-  font-family: Raleway;
+  font-family: Ralaway; sans-serif;
   font-size: 26px;
   color: #2196f3;
 }
 .logo-two {
-  font-family: Raleway;
+  font-family: Ralaway; sans-serif;
   font-size: 26px;
   color: #000000;
 }
