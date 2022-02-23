@@ -58,6 +58,9 @@ ul {
 .team-section-title {
   color: var(--title-text-color);
   line-height: 1.17;
+  text-align: center;
+  font-size: 700;
+  font-size: 36px;
 }
 .team-section {
   background-color: var(--button-bg-color);
@@ -123,11 +126,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
 }
-.do-section-title .team-section-title {
-  font-size: 700;
-  font-size: 36px;
-  text-align: center;
-}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
