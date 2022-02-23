@@ -14,11 +14,14 @@ a {
   text-decoration: none;
   font-style: normal;
 }
+
 ul {
   list-style: none;
 }
-.site-nav .contact-list {
+.site-nav,
+.contact-list {
   line-height: 1.17;
+  font-size: 14px;
 }
 .site-nav a {
   color: var(--title-text-color);
@@ -32,9 +35,7 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
-.contact-list {
-  line-height: 1.17;
-}
+
 .contact-list a {
   color: var(--text-color);
 }
@@ -42,13 +43,15 @@ ul {
 .contact-list a:focus {
   color: var(--accent-color);
 }
-.section title {
+.section-title {
   color: var(--title-text-color);
   line-height: 1.17;
+  text-transform: uppercase;
 }
 .hero-title {
   color: #ffffff;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 .feature-desc {
   color: var(--text-color);
@@ -59,7 +62,7 @@ ul {
   color: var(--title-text-color);
   line-height: 1.17;
   text-align: center;
-  font-size: 700;
+  font-weight: 700;
   font-size: 36px;
 }
 .team-section {
@@ -70,12 +73,17 @@ ul {
   color: var(--background-color);
   cursor: pointer;
   line-height: 1.8;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .button-secondary {
   background-color: var(--button-bg-color);
   color: var(--title-text-color);
   cursor: pointer;
+  line-height: 1.62;
+  font-size: 16px;
+  font-weight: 500;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -89,9 +97,7 @@ ul {
   color: var(--background-color);
   cursor: pointer;
 }
-.btn-text {
-  line-height: 1.62;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -107,6 +113,9 @@ ul {
 }
 .logo.text {
   line-height: 1.38;
+}
+.footer .logo-txt-foot {
+  line-height: 1.17;
 }
 
 .site-nav {
@@ -136,16 +145,34 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+  color: var(--text-color);
 }
 .hero {
   background-color: #2f303a;
 }
 .portf-section-title {
   line-height: 2;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 .portf-decs {
   line-height: 1.87;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0.03em;
 }
 .footer {
   background: #2f303a;
+}
+.footer .footer-a {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+.footer .footer-k {
+  color: var(--background-color);
+  line-height: 1.17;
+}
+.footer-logo {
+  line-height: 1.17;
 }
